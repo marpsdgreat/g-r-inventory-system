@@ -149,7 +149,12 @@ export default function POS() {
     )
 }
 
-function SubPricing({ subItem, price }) {
+type SubPricingProps = {
+    subItem: string;
+    price: number;
+};
+
+function SubPricing({ subItem, price }: SubPricingProps) {
     return (
         <div className={ui.subPricing}>
             <div>{subItem}</div>
