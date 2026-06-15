@@ -1,0 +1,77 @@
+.container{
+    width: 100%;
+    display: flex;
+    padding: 14px;
+    justify-content: space-between;
+}
+
+.container *{
+    box-sizing: border-box;
+    /* background: rgba(255, 0, 0, 0.336); */
+}
+.logo{
+    max-width: 180px;
+}
+.logo img{
+    width: 100%;
+}
+
+.searchtabs{
+    width: 80vw;
+    max-width: 1024px;
+    display: grid;
+    gap: .5rem;
+}
+
+.search {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    background: var(--bg-base);
+    border-radius: 99999999px;
+    padding-block: 8px;
+    padding-inline: 16px;
+    box-sizing: border-box;
+    color: var(--text-primary);
+}
+.search input{
+    all: unset;
+    text-align: left;
+    width: 100%;
+}
+.tabs{
+    color: var(--text-primary);
+    display: flex;
+    gap: 1rem;
+    padding-left: 1rem;
+}
+.tabs button{
+    all: unset;
+    cursor: pointer;
+    position: relative;
+}
+
+.tabs .active::before{
+    content: "";
+    position: absolute;
+    bottom: -8px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    height: 3px;
+    border-radius: 9px;
+    width: 0%;
+    background: var(--primary-active);
+    animation: activeToggle 300ms ease-in-out forwards;
+}
+@keyframes activeToggle {
+    to {
+        width: 80%;
+    }
+}
+.settings{
+    padding-top: 10px;
+}
+.settings svg{
+    color: var(--text-primary);
+}

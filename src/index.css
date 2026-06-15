@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+:root {
+   /* =========================
+     Base Backgrounds
+  ========================== */
+   --bg-base: #0b0b0d;
+   --bg-surface: #141418;
+   --bg-surface-hover: #1c1c22;
+   --border: #2a2a33;
+
+   /* =========================
+     Primary Accent (Yellow)
+  ========================== */
+   --primary: #f7c948;
+   --primary-hover: #ffd84d;
+   --primary-active: #d4a72c;
+
+   /* =========================
+     Text Colors
+  ========================== */
+   --text-primary: #f5f5f7;
+   --text-muted: #a1a1aa;
+   --text-disabled: #6b6b76;
+
+   /* =========================
+     Status Colors
+  ========================== */
+   --success: #22c55e;
+   --warning: #facc15;
+   --danger: #ef4444;
+   --info: #38bdf8;
+
+   --bg-base-dark: #dadada;
+   --bg-base-light: #f6f7fb;
+   /* main background */
+   --bg-surface-light: #ffffff;
+   /* cards / panels */
+   --bg-surface-hover-light: #f0f2f7;
+   /* hover states */
+   --border-light: #d7dbe7;
+   /* soft borders */
+
+   /* =========================
+     LIGHT TEXT SYSTEM
+  ========================== */
+
+   --text-primary-light: #0f1115;
+   --text-muted-light: #5b6270;
+   --text-disabled-light: #9aa3b2;
+
+   font-family: "Inter", system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+}
+
+#root {
+   background-color: var(--bg-surface);
+   max-width: 100%;
+   margin: 0 auto;
+   text-align: center;
+   min-height: 100svh;
+   display: flex;
+   flex-direction: column;
+   box-sizing: border-box;
+}
+
+body {
+   margin: 0;
+}
+
+::-webkit-scrollbar {
+   width: 8px;
+   height: 8px;
+}
+
+::-webkit-scrollbar-track {
+   background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+   background: var(--text-muted-light);
+   border-radius: 999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+   background: #555;
+}
+
+::-webkit-scrollbar-button {
+   display: none;
+   width: 0;
+   height: 0;
+}

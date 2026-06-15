@@ -1,0 +1,18 @@
+.app-container{
+  display: grid;
+  grid-template-rows: auto 1fr;
+  height: 100dvh;
+  box-sizing: border-box;
+  padding-inline: 10px;
+}
+.app-container > div{
+  width: 100%;
+  box-sizing: border-box;
+}
+.sections{
+  box-sizing: border-box;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  background: var(--bg-base-dark);
+  overflow: hidden;
+}

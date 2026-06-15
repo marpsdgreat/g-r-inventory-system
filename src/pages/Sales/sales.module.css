@@ -1,0 +1,24 @@
+.container{
+    background: var(--bg-base-light);
+    height: 100%;
+    display: grid;
+    grid-template-columns: 250px auto;
+}
+
+.salesPage{
+    border-top-left-radius: 20px;
+    border-top-left-radius: 20px;
+    background: var(--bg-base-dark);
+    position: relative;
+}
+.collapseNav{
+    position: absolute;
+    top: 20px;
+    background: var(--bg-surface-light);
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    display: flex;
+    align-items: center;
+    padding-block: 5px;
+    padding-right: 5px;
+}
