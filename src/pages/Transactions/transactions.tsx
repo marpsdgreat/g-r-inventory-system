@@ -1,26 +1,17 @@
 import { useMemo, useState } from "react";
 import ui from './transactions.module.css'
 import NavBar from "../../components/navbar/navbar";
-import { RxActivityLog, RxArchive, RxBarChart, RxChevronLeft, RxCrosshair2, RxReader, RxShuffle, RxTokens } from "react-icons/rx";
-import Dashboard from "./pages/dashboard/dashboard";
-import SalesTransactions from "./pages/sales-transactions/sales-transaction";
+import { RxActivityLog, RxArchive, RxChevronLeft, RxReader, RxTokens } from "react-icons/rx";
 import Ledger from "./pages/ledger/ledger";
 import Procurement from "./pages/procurement/procurement";
-import InventoryMovements from "./pages/inventory-movements/inventory-movements";
 import CashMovements from "./pages/cash-movements/cash-movements";
 import AuditLog from "./pages/audit-logs/audit-log";
 
 export default function Transactions() {
 
-    const [activeTab, setActiveTab] = useState("dashboard");
+    const [activeTab, setActiveTab] = useState("ledger");
 
     const routes = useMemo(() => [
-        {
-            id: "dashboard",
-            label: "Dashboard",
-            icon: <RxCrosshair2 size={22} />,
-            component: <Dashboard />
-        },
         {
             id: "ledger",
             label: "Ledger",
@@ -28,22 +19,10 @@ export default function Transactions() {
             component: <Ledger />
         },
         {
-            id: "sales",
-            label: "Sales",
-            icon: <RxBarChart size={22} />,
-            component: <SalesTransactions />
-        },
-        {
             id: "procurement",
             label: "Procurement",
             icon: <RxArchive size={22} />,
             component: <Procurement />
-        },
-        {
-            id: "inventory-movements",
-            label: "Movements",
-            icon: <RxShuffle size={22} />,
-            component: <InventoryMovements />
         },
         {
             id: "cash",

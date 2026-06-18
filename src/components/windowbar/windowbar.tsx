@@ -34,10 +34,17 @@ export default function WindowBar({
                     </button>
 
                     <button
-                        className={page === 'sales' ? ui.active : ''}
-                        onClick={() => setPage('sales')}
+                        className={page === 'workforce' ? ui.active : ''}
+                        onClick={() => setPage('workforce')}
                     >
-                        Sales & Workforce
+                        Workforce
+                    </button>
+
+                    <button
+                        className={page === 'inventory' ? ui.active : ''}
+                        onClick={() => setPage('inventory')}
+                    >
+                        Inventory
                     </button>
 
                     <button
@@ -48,11 +55,12 @@ export default function WindowBar({
                     </button>
 
                     <button
-                        className={page === 'inventory' ? ui.active : ''}
-                        onClick={() => setPage('inventory')}
+                        className={page === 'insights' ? ui.active : ''}
+                        onClick={() => setPage('insights')}
                     >
-                        Inventory
+                        Insights
                     </button>
+
                 </div>
             </div>
 

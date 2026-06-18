@@ -3,15 +3,12 @@ export default function AuditLog() {
         <div>Dashboard
             <br />
             <ul>
-                <li>User Activity</li>
-                <li>Transaction Voids</li>
-                <li>Inventory Adjustments</li>
-                <li>Price Changes</li>
-                <li>Permission Changes</li>
-                <li>Manual Corrections</li>
-                <li>Procurement Approvals</li>
-                <li>Cash Adjustments</li>
-                <li>System Events</li>
+                <li>Immutable Log — Append-only, cryptographically signed</li>
+                <li>User Action Trail — Every CRUD operation, with before/after</li>
+                <li>Login History — Who logged in from where, when</li>
+                <li>Data Access Log — Who viewed sensitive records</li>
+                <li>Compliance Packs — Pre-built reports for tax authorities (BIR, SEC, etc.)</li>
+                <li>Anomaly Detection — Unusual patterns auto-flagged</li>
             </ul>
         </div>
     )

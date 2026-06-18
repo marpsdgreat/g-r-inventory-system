@@ -3,16 +3,17 @@ import { useState } from 'react'
 import WindowBar from './components/windowbar/windowbar'
 
 import POS from './pages/POS/pos'
-import Sales from './pages/Sales/sales'
-// import Transactions from './pages/Transactions/transactions'
 import Inventory from './pages/Inventory/inventory'
 import Transactions from './pages/Transactions/transactions'
+import Workforce from './pages/Workforce/workforce'
+import Insights from './pages/Insights/insights'
 
 export type AppPage =
   | 'pos'
-  | 'sales'
+  | 'workforce'
   | 'transactions'
   | 'inventory'
+  | 'insights'
 
 function App() {
   const [page, setPage] = useState<AppPage>('pos')
@@ -26,9 +27,10 @@ function App() {
 
       <div className="sections">
         {page === 'pos' && <POS />}
-        {page === 'sales' && <Sales />}
+        {page === 'workforce' && <Workforce />}
         {page === 'transactions' && <Transactions />}
         {page === 'inventory' && <Inventory />}
+        {page === 'insights' && <Insights />}
       </div>
     </section>
   )
