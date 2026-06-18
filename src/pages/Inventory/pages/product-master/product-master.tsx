@@ -10,6 +10,7 @@ export default function ProductMaster() {
                 <li>Rich Media — Multiple images, 360° view, videos, documents</li>
                 <li>Localization — Multi-language names, descriptions per region</li>
                 <li>Lifecycle Status — Draft → Active → Discontinued → Archived</li>
+                <li>Barcode Generation — Generate barcodes upon registering new/receiving items</li>
             </ul>
         </div>
     )
