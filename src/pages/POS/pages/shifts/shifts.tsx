@@ -5,7 +5,6 @@ export default function Shifts() {
             <ul>
                 <li>Cash Float — Opening declaration, blind close, variance reporting</li>
                 <li>Mid-Shift Drops — Safe drops with witness signature</li>
-                <li>X/Z Reports — Mid-shift snapshot vs end-of-day close</li>
                 <li>Hand-off Mode — Transfer drawer between cashiers without closing</li>
             </ul>
         </div>
