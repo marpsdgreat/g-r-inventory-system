@@ -55,7 +55,7 @@ export default function Inventory() {
     return (
         <div className={ui.container}>
             <NavBar
-                title="Sales & Workforce"
+                title="Inventory"
                 items={routes}
                 active={activeTab}
                 onChange={setActiveTab}

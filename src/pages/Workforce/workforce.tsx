@@ -40,7 +40,7 @@ export default function Workforce() {
     return (
         <div className={ui.container}>
             <NavBar
-                title="Sales & Workforce"
+                title="Workforce"
                 items={routes}
                 active={activeTab}
                 onChange={setActiveTab}

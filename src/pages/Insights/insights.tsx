@@ -32,7 +32,7 @@ export default function Insights() {
     return (
         <div className={ui.container}>
             <NavBar
-                title="Sales & Workforce"
+                title="Insights"
                 items={routes}
                 active={activeTab}
                 onChange={setActiveTab}

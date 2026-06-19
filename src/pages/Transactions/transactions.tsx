@@ -37,7 +37,7 @@ export default function Transactions() {
     return (
         <div className={ui.container}>
             <NavBar
-                title="Sales & Workforce"
+                title="Transactions"
                 items={routes}
                 active={activeTab}
                 onChange={setActiveTab}

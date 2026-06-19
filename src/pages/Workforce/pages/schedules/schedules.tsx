@@ -5,7 +5,7 @@ export default function Schedules() {
             <ul>
                 <li>Drag-Drop Builder — Visual weekly grid</li>
                 <li>Shift Swap Marketplace — Employees trade with manager approval</li>
-                <li>Time Clock — Biometric/PIN punch-in with geofencing</li>
+                <li>Time Clock — Login/out</li>
             </ul>
         </div>
     )
