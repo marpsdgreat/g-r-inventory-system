@@ -7,8 +7,6 @@ export default function Dashboard() {
                 <li>Sales Pulse — Live registers, today's targets, top sellers now, discount burn rate, cashier leaderboard (performance only, no pay)</li>
                 <li>Inventory Pulse — Low stock wall, OOS alerts, in-transit tracker, receiving queue, critical variance flags</li>
                 <li>Workforce Pulse — Live roster, coverage gaps, attendance pulse, productivity live, break tracker (no compensation visible)</li>
-                <li>Financial Pulse — Cash position, drawer status, pending payments, approval queue, reconciliation status</li>
-                <li>Operations Pulse — Service health, integration health, sync status, error stream, background jobs</li>
                 <li>Branch Pulse — Performing branches</li>
                 <li>Suppliers Pulse — Top Performing & trustworthy suppliers</li>
             </ul>

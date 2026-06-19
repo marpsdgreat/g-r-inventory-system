@@ -20,7 +20,7 @@ export default function Insights() {
         },
         {
             id: "reports",
-            label: "Reoprts",
+            label: "Reports",
             icon: <RiClipboardLine size={22} />,
             component: <Reports />
         },

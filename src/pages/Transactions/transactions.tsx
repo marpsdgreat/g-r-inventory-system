@@ -25,12 +25,6 @@ export default function Transactions() {
             component: <Procurement />
         },
         {
-            id: "cash",
-            label: "Cash",
-            icon: <RxTokens size={22} />,
-            component: <CashMovements />
-        },
-        {
             id: "audit",
             label: "Audit",
             icon: <RxActivityLog size={22} />,

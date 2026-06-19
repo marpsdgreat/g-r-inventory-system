@@ -43,7 +43,7 @@ export default function Inventory() {
         },
         {
             id: "movements",
-            label: "Moverments",
+            label: "Movements",
             icon: <IoFootstepsSharp size={22} />,
             component: <Movements />
         },
