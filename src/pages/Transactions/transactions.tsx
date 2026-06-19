@@ -1,10 +1,9 @@
 import { useMemo, useState } from "react";
 import ui from './transactions.module.css'
 import NavBar from "../../components/navbar/navbar";
-import { RxActivityLog, RxArchive, RxChevronLeft, RxReader, RxTokens } from "react-icons/rx";
+import { RxActivityLog, RxArchive, RxChevronLeft, RxReader } from "react-icons/rx";
 import Ledger from "./pages/ledger/ledger";
 import Procurement from "./pages/procurement/procurement";
-import CashMovements from "./pages/cash-movements/cash-movements";
 import AuditLog from "./pages/audit-logs/audit-log";
 
 export default function Transactions() {
